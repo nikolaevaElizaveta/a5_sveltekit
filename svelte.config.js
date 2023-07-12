@@ -5,10 +5,8 @@ const config = {
   kit: {
     adapter: adapter(),
     paths: {
-        base: '/',
-        },
-
-    
+      base: '/a5_sveltekit/', // Update with the correct repository name
+    },
   },
   preprocess: preprocess(),
 };
