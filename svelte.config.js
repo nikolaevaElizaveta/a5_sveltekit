@@ -3,8 +3,10 @@ import preprocess from 'svelte-preprocess';
 
 const config = {
   kit: {
-    adapter: adapter({
-        }),
+    adapter: adapter(),
+    paths: {
+        base: '/',
+        },
 
     
   },
