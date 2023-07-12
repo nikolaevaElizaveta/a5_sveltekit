@@ -1,11 +1,12 @@
 <script>
   let name = "Liza";
   let studyPlace = "Innopolis University";
-  let description = "Hi, I'm Liza! I study in the Innopolis University. I am a beginner Java developer with a strong interest in front-end design. With expertise in Java programming and proficiency in tools like Figma, I enjoy creating user-friendly and visually appealing applications. For now, I have little experience in development and design, but I try to gain as much theoretical knowledge as possible.";
+  let description = "Hi, I'm Liza! I study at Innopolis University. I am a beginner Java developer with a strong interest in front-end design. With expertise in Java programming and proficiency in tools like Figma, I enjoy creating user-friendly and visually appealing applications. Although I have limited experience in development and design, I am continuously learning and expanding my knowledge.";
 </script>
 
-<div id="topBlock">
-    <h1>Bio Page</h1>
+<section id="bio">
+    <div id="topBlock">
+    
     <img src="me.jpg" id="myPhoto" alt="Here is my photo" />
     <div id="empty"></div>
     <div id="aboutMe">
@@ -14,5 +15,5 @@
         <p>{description}</p>
         </div>
     </div>
-</div>
-
+    </div>
+</section>

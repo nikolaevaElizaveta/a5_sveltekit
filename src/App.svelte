@@ -1,7 +1,15 @@
-
 <script>
   import Layout from './routes/+layout.svelte';
+  import { Router, Route } from 'svelte-routing';
   import Intro from './routes/Intro.svelte';
+  import Bio from './routes/Bio.svelte';
+  import Portfolio from './routes/Portfolio.svelte';
+
+  const navigationLinks = [
+    { text: 'Home', href: '/' },
+    { text: 'Bio', href: '/Bio' },
+    { text: 'Portfolio', href: '/Portfolio' }
+  ];
 </script>
 
 <Layout {navigationLinks}>

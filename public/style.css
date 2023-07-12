@@ -112,14 +112,37 @@
     height: 267px;
     margin-left: 50px;
   }
-  #navigation {
+  /* #navigation {
     background-color: white;
     width: 89.4%;
     height: 300px;
     opacity: 30%;
     border-radius: 50px;
     transform: translate(75px, -238px);
+  } */
+
+  .navigation {
+    text-align: center;
+    font-family: monospace;
+    font-size: larger;
+    font-weight: 1000;
   }
+
+  .navigation-links {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .navigation-links li {
+    margin-right: 50px;
+  }
+
+  .navigation-links a {
+    text-decoration: none;
+    color: #000; /* Set the desired color for the links */
+  }
+
   #menu {
     display: grid;
     padding-left: 2%;
